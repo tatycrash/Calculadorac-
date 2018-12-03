@@ -1,12 +1,16 @@
-#include "NodoCola.hpp"
+#include "../include/NodoCola.hpp"
 
 
 using namespace std;
 
-NodoCola::NodoCola(Elemento e, NodoCola* siguiente){
+NodoCola::NodoCola(Elemento e, NodoCola* siguiente) {
     elemento = e;
-    siguiente = sig;
+    sig = siguiente;
 }
-    
-NodoCola::~NodoCola(){}
+
+/*NodoCola::getValor(){
+    return this->elemento;
+    }*/
+NodoCola::~NodoCola() {
+}
 

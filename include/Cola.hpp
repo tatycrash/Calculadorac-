@@ -3,11 +3,11 @@
 #include <iostream>
 #include <cstddef>
 
-#include <Elemento.hpp>
-#include <NodoCola.hpp>
+#include "NodoCola.hpp"
+#include "Elemento.hpp"
+#include "NodoCola.hpp"
 
-class Cola{
-    
+class Cola {
 public:
     Cola();
     void insertarCola(Elemento e);

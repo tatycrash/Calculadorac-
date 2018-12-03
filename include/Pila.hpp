@@ -2,24 +2,20 @@
 #define PILA_HPP
 #include <iostream>
 
-#include <NodoPila.hpp>
-#include <Cola.hpp>
-#include <NodoArbol.hpp>
+#include "NodoPila.hpp"
+#include "Cola.hpp"
 
-class Pila{
-    
+class Pila {
 public:
     Pila();
-    void apilar(nodoa);
-    nodoa desapilar();
+    void apilar(int);
+    int desapilar();
     bool pilavacia();
     void mostrarPila(ppnodo);
-    bool esUltimo();
     ~Pila();
-    ppnodo cima;
 
 private:
-    //ppnodo cima;
+    ppnodo cima;
 };
 
 #endif // PILA_HPP
