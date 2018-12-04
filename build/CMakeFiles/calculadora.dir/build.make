@@ -70,9 +70,22 @@ CMakeFiles/calculadora.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculadora.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zentauro/Git/Calculadorac-/src/main.cpp -o CMakeFiles/calculadora.dir/src/main.cpp.s
 
+CMakeFiles/calculadora.dir/src/funcs.cpp.o: CMakeFiles/calculadora.dir/flags.make
+CMakeFiles/calculadora.dir/src/funcs.cpp.o: ../src/funcs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculadora.dir/src/funcs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/funcs.cpp.o -c /home/zentauro/Git/Calculadorac-/src/funcs.cpp
+
+CMakeFiles/calculadora.dir/src/funcs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculadora.dir/src/funcs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zentauro/Git/Calculadorac-/src/funcs.cpp > CMakeFiles/calculadora.dir/src/funcs.cpp.i
+
+CMakeFiles/calculadora.dir/src/funcs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculadora.dir/src/funcs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zentauro/Git/Calculadorac-/src/funcs.cpp -o CMakeFiles/calculadora.dir/src/funcs.cpp.s
+
 CMakeFiles/calculadora.dir/src/Cola.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/Cola.cpp.o: ../src/Cola.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculadora.dir/src/Cola.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculadora.dir/src/Cola.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/Cola.cpp.o -c /home/zentauro/Git/Calculadorac-/src/Cola.cpp
 
 CMakeFiles/calculadora.dir/src/Cola.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/calculadora.dir/src/Cola.cpp.s: cmake_force
 
 CMakeFiles/calculadora.dir/src/Elemento.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/Elemento.cpp.o: ../src/Elemento.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculadora.dir/src/Elemento.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculadora.dir/src/Elemento.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/Elemento.cpp.o -c /home/zentauro/Git/Calculadorac-/src/Elemento.cpp
 
 CMakeFiles/calculadora.dir/src/Elemento.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/calculadora.dir/src/Elemento.cpp.s: cmake_force
 
 CMakeFiles/calculadora.dir/src/NodoCola.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/NodoCola.cpp.o: ../src/NodoCola.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculadora.dir/src/NodoCola.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calculadora.dir/src/NodoCola.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/NodoCola.cpp.o -c /home/zentauro/Git/Calculadorac-/src/NodoCola.cpp
 
 CMakeFiles/calculadora.dir/src/NodoCola.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/calculadora.dir/src/NodoCola.cpp.s: cmake_force
 
 CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o: ../src/NodoArbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o -c /home/zentauro/Git/Calculadorac-/src/NodoArbol.cpp
 
 CMakeFiles/calculadora.dir/src/NodoArbol.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/calculadora.dir/src/NodoArbol.cpp.s: cmake_force
 
 CMakeFiles/calculadora.dir/src/NodoPila.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/NodoPila.cpp.o: ../src/NodoPila.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calculadora.dir/src/NodoPila.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calculadora.dir/src/NodoPila.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/NodoPila.cpp.o -c /home/zentauro/Git/Calculadorac-/src/NodoPila.cpp
 
 CMakeFiles/calculadora.dir/src/NodoPila.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/calculadora.dir/src/NodoPila.cpp.s: cmake_force
 
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../src/Pila.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calculadora.dir/src/Pila.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/calculadora.dir/src/Pila.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/Pila.cpp.o -c /home/zentauro/Git/Calculadorac-/src/Pila.cpp
 
 CMakeFiles/calculadora.dir/src/Pila.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/calculadora.dir/src/Pila.cpp.s: cmake_force
 
 CMakeFiles/calculadora.dir/src/Arbol.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/Arbol.cpp.o: ../src/Arbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/calculadora.dir/src/Arbol.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/calculadora.dir/src/Arbol.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/Arbol.cpp.o -c /home/zentauro/Git/Calculadorac-/src/Arbol.cpp
 
 CMakeFiles/calculadora.dir/src/Arbol.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/calculadora.dir/src/Arbol.cpp.s: cmake_force
 
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o: ../src/Stoi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/calculadora.dir/src/Stoi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/calculadora.dir/src/Stoi.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculadora.dir/src/Stoi.cpp.o -c /home/zentauro/Git/Calculadorac-/src/Stoi.cpp
 
 CMakeFiles/calculadora.dir/src/Stoi.cpp.i: cmake_force
@@ -177,6 +190,7 @@ CMakeFiles/calculadora.dir/src/Stoi.cpp.s: cmake_force
 # Object files for target calculadora
 calculadora_OBJECTS = \
 "CMakeFiles/calculadora.dir/src/main.cpp.o" \
+"CMakeFiles/calculadora.dir/src/funcs.cpp.o" \
 "CMakeFiles/calculadora.dir/src/Cola.cpp.o" \
 "CMakeFiles/calculadora.dir/src/Elemento.cpp.o" \
 "CMakeFiles/calculadora.dir/src/NodoCola.cpp.o" \
@@ -190,6 +204,7 @@ calculadora_OBJECTS = \
 calculadora_EXTERNAL_OBJECTS =
 
 calculadora: CMakeFiles/calculadora.dir/src/main.cpp.o
+calculadora: CMakeFiles/calculadora.dir/src/funcs.cpp.o
 calculadora: CMakeFiles/calculadora.dir/src/Cola.cpp.o
 calculadora: CMakeFiles/calculadora.dir/src/Elemento.cpp.o
 calculadora: CMakeFiles/calculadora.dir/src/NodoCola.cpp.o
@@ -200,7 +215,7 @@ calculadora: CMakeFiles/calculadora.dir/src/Arbol.cpp.o
 calculadora: CMakeFiles/calculadora.dir/src/Stoi.cpp.o
 calculadora: CMakeFiles/calculadora.dir/build.make
 calculadora: CMakeFiles/calculadora.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable calculadora"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zentauro/Git/Calculadorac-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable calculadora"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculadora.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

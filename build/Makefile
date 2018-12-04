@@ -339,6 +339,33 @@ src/Stoi.cpp.s:
 	$(MAKE) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/src/Stoi.cpp.s
 .PHONY : src/Stoi.cpp.s
 
+src/funcs.o: src/funcs.cpp.o
+
+.PHONY : src/funcs.o
+
+# target to build an object file
+src/funcs.cpp.o:
+	$(MAKE) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/src/funcs.cpp.o
+.PHONY : src/funcs.cpp.o
+
+src/funcs.i: src/funcs.cpp.i
+
+.PHONY : src/funcs.i
+
+# target to preprocess a source file
+src/funcs.cpp.i:
+	$(MAKE) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/src/funcs.cpp.i
+.PHONY : src/funcs.cpp.i
+
+src/funcs.s: src/funcs.cpp.s
+
+.PHONY : src/funcs.s
+
+# target to generate assembly for a file
+src/funcs.cpp.s:
+	$(MAKE) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/src/funcs.cpp.s
+.PHONY : src/funcs.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -399,6 +426,9 @@ help:
 	@echo "... src/Stoi.o"
 	@echo "... src/Stoi.i"
 	@echo "... src/Stoi.s"
+	@echo "... src/funcs.o"
+	@echo "... src/funcs.i"
+	@echo "... src/funcs.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

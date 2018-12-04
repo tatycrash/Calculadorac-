@@ -7,6 +7,7 @@ SET(CMAKE_CXX_COMPILE /usr/bin/clang)
 
 add_executable(
     calculadora src/main.cpp
+    src/funcs.cpp
     src/Cola.cpp
     src/Elemento.cpp
     src/NodoCola.cpp

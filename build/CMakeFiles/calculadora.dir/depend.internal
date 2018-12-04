@@ -49,6 +49,9 @@ CMakeFiles/calculadora.dir/src/Pila.cpp.o
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/Stoi.cpp
+CMakeFiles/calculadora.dir/src/funcs.cpp.o
+ /home/zentauro/Git/Calculadorac-/include/funcs.hpp
+ /home/zentauro/Git/Calculadorac-/src/funcs.cpp
 CMakeFiles/calculadora.dir/src/main.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Arbol.hpp
  /home/zentauro/Git/Calculadorac-/include/Cola.hpp
@@ -58,4 +61,5 @@ CMakeFiles/calculadora.dir/src/main.cpp.o
  /home/zentauro/Git/Calculadorac-/include/NodoPila.hpp
  /home/zentauro/Git/Calculadorac-/include/Pila.hpp
  /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
+ /home/zentauro/Git/Calculadorac-/include/funcs.hpp
  /home/zentauro/Git/Calculadorac-/src/main.cpp

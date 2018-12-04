@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zentauro/Git/Calculadorac-/src/NodoPila.cpp" "/home/zentauro/Git/Calculadorac-/build/CMakeFiles/calculadora.dir/src/NodoPila.cpp.o"
   "/home/zentauro/Git/Calculadorac-/src/Pila.cpp" "/home/zentauro/Git/Calculadorac-/build/CMakeFiles/calculadora.dir/src/Pila.cpp.o"
   "/home/zentauro/Git/Calculadorac-/src/Stoi.cpp" "/home/zentauro/Git/Calculadorac-/build/CMakeFiles/calculadora.dir/src/Stoi.cpp.o"
+  "/home/zentauro/Git/Calculadorac-/src/funcs.cpp" "/home/zentauro/Git/Calculadorac-/build/CMakeFiles/calculadora.dir/src/funcs.cpp.o"
   "/home/zentauro/Git/Calculadorac-/src/main.cpp" "/home/zentauro/Git/Calculadorac-/build/CMakeFiles/calculadora.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

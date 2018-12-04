@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calculadora.dir/src/main.cpp.o"
+  "CMakeFiles/calculadora.dir/src/funcs.cpp.o"
   "CMakeFiles/calculadora.dir/src/Cola.cpp.o"
   "CMakeFiles/calculadora.dir/src/Elemento.cpp.o"
   "CMakeFiles/calculadora.dir/src/NodoCola.cpp.o"

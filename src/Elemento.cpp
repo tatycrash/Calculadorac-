@@ -10,52 +10,55 @@
 using namespace std;
 
 Elemento::Elemento(){
- valor;
+  if (EsNumero()) {
+    tipo = Numero;
+  } 
 }
 
 void Elemento::setValor(string val){
-    valor = val;
-    }
+  valor = val;
+}
 string Elemento::getValor(){
-    return valor;
-    }
-    
+  return valor;
+}
+
 int Elemento::getNumero(){
-    return numero;
-    }
+  return numero;
+}
 
 bool Elemento::EsNumero(){
-   int temp;
-   try {
-        temp = stoi(&valor);
-    }
-    catch(const invalid_argument e) {
-        return false;
-    }
-    numero = temp;
-    return true;
+  int temp;
+  try {
+    temp = stoi(&valor);
+  }
+  catch(const invalid_argument e) {
+    return false;
+  }
+  numero = temp;
+  return true;
 }
 
 bool Elemento::EsOperador(){
-    
+  if (tipo == indef){
     if ((valor [0]=='+') || (valor [0]=='-') || (valor [0]=='*') || (valor [0]=='/') || (valor [0]=='^') || (valor [0]=='%')) {
-        return true;
-        }else{
-        return false;    
-        }
+      return true;
+    }else{
+      return false;
+    }
+  }
+  return (tipo == Operador) ?  true : false;
 }
 
 bool Elemento::EsParentesis(){
-    
-    if ((valor [0]=='(') || (valor [0]==')')){
-        return true;
-        }else{
+  if (tipo ==  indef)
+  if ((valor [0]=='(') || (valor [0]==')')){
+    return true;
+  }else{
     return false;
-        }
+  }
 }
 
 void Elemento::mostrarElem(){
-    
     cout << "\nValor: " << getValor() << endl;
 }
 

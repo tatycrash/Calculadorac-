@@ -49,6 +49,9 @@ CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../src/Pila.cpp
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o: ../src/Stoi.cpp
 
+CMakeFiles/calculadora.dir/src/funcs.cpp.o: ../include/funcs.hpp
+CMakeFiles/calculadora.dir/src/funcs.cpp.o: ../src/funcs.cpp
+
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Arbol.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Cola.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Elemento.hpp
@@ -57,5 +60,6 @@ CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/NodoCola.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/NodoPila.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Pila.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Stoi.hpp
+CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/funcs.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../src/main.cpp
 

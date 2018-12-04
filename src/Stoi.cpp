@@ -1,5 +1,3 @@
-#include "Stoi.hpp"
-
 #include <string>
 #include <stdexcept>
 #include <iostream>
@@ -7,6 +5,8 @@
 #include <stdio.h>
 #include <cstring>
 #include <cstdlib>
+
+#include "../include/Stoi.hpp"
 
 namespace std{
     int stoi(string *str){

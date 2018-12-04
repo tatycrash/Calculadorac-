@@ -9,15 +9,16 @@
 class Cola {
 
 public:
-    Cola();
-    void insertarCola(Elemento e);
-    Elemento eliminarCola();
-    bool colaVacia();
-    void mostrar();
-    ~Cola();
-
+  Cola();
+  void     insertarCola(Elemento e);
+  Elemento eliminarCola();
+  bool     colaVacia();
+  void     mostrar();
+  int      getLength();
+  ~Cola();
 private:
-    pnodo primero, ultimo;
+  pnodo primero, ultimo;
+  int   length;
 };
 
 #endif // COLA_HPP
