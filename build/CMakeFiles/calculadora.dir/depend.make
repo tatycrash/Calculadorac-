@@ -8,41 +8,54 @@ CMakeFiles/calculadora.dir/src/Arbol.cpp.o: ../include/NodoArbol.hpp
 CMakeFiles/calculadora.dir/src/Arbol.cpp.o: ../include/NodoCola.hpp
 CMakeFiles/calculadora.dir/src/Arbol.cpp.o: ../include/NodoPila.hpp
 CMakeFiles/calculadora.dir/src/Arbol.cpp.o: ../include/Pila.hpp
+CMakeFiles/calculadora.dir/src/Arbol.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/Arbol.cpp.o: ../src/Arbol.cpp
 
 CMakeFiles/calculadora.dir/src/Cola.cpp.o: ../include/Cola.hpp
 CMakeFiles/calculadora.dir/src/Cola.cpp.o: ../include/Elemento.hpp
 CMakeFiles/calculadora.dir/src/Cola.cpp.o: ../include/NodoCola.hpp
+CMakeFiles/calculadora.dir/src/Cola.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/Cola.cpp.o: ../src/Cola.cpp
 
 CMakeFiles/calculadora.dir/src/Elemento.cpp.o: ../include/Elemento.hpp
+CMakeFiles/calculadora.dir/src/Elemento.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/Elemento.cpp.o: ../src/Elemento.cpp
 
 CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o: ../include/Elemento.hpp
 CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o: ../include/NodoArbol.hpp
+CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o: ../src/NodoArbol.cpp
 
 CMakeFiles/calculadora.dir/src/NodoCola.cpp.o: ../include/Elemento.hpp
 CMakeFiles/calculadora.dir/src/NodoCola.cpp.o: ../include/NodoCola.hpp
+CMakeFiles/calculadora.dir/src/NodoCola.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/NodoCola.cpp.o: ../src/NodoCola.cpp
 
+CMakeFiles/calculadora.dir/src/NodoPila.cpp.o: ../include/Elemento.hpp
+CMakeFiles/calculadora.dir/src/NodoPila.cpp.o: ../include/NodoArbol.hpp
 CMakeFiles/calculadora.dir/src/NodoPila.cpp.o: ../include/NodoPila.hpp
+CMakeFiles/calculadora.dir/src/NodoPila.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/NodoPila.cpp.o: ../src/NodoPila.cpp
 
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../include/Cola.hpp
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../include/Elemento.hpp
+CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../include/NodoArbol.hpp
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../include/NodoCola.hpp
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../include/NodoPila.hpp
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../include/Pila.hpp
+CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/Pila.cpp.o: ../src/Pila.cpp
 
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o: ../src/Stoi.cpp
 
+CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Arbol.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Cola.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Elemento.hpp
+CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/NodoArbol.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/NodoCola.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/NodoPila.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Pila.hpp
+CMakeFiles/calculadora.dir/src/main.cpp.o: ../include/Stoi.hpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../src/main.cpp
 

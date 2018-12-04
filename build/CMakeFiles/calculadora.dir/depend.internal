@@ -9,40 +9,53 @@ CMakeFiles/calculadora.dir/src/Arbol.cpp.o
  /home/zentauro/Git/Calculadorac-/include/NodoCola.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoPila.hpp
  /home/zentauro/Git/Calculadorac-/include/Pila.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/Arbol.cpp
 CMakeFiles/calculadora.dir/src/Cola.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Cola.hpp
  /home/zentauro/Git/Calculadorac-/include/Elemento.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoCola.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/Cola.cpp
 CMakeFiles/calculadora.dir/src/Elemento.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Elemento.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/Elemento.cpp
 CMakeFiles/calculadora.dir/src/NodoArbol.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Elemento.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoArbol.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/NodoArbol.cpp
 CMakeFiles/calculadora.dir/src/NodoCola.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Elemento.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoCola.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/NodoCola.cpp
 CMakeFiles/calculadora.dir/src/NodoPila.cpp.o
+ /home/zentauro/Git/Calculadorac-/include/Elemento.hpp
+ /home/zentauro/Git/Calculadorac-/include/NodoArbol.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoPila.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/NodoPila.cpp
 CMakeFiles/calculadora.dir/src/Pila.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Cola.hpp
  /home/zentauro/Git/Calculadorac-/include/Elemento.hpp
+ /home/zentauro/Git/Calculadorac-/include/NodoArbol.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoCola.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoPila.hpp
  /home/zentauro/Git/Calculadorac-/include/Pila.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/Pila.cpp
 CMakeFiles/calculadora.dir/src/Stoi.cpp.o
  /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/Stoi.cpp
 CMakeFiles/calculadora.dir/src/main.cpp.o
+ /home/zentauro/Git/Calculadorac-/include/Arbol.hpp
  /home/zentauro/Git/Calculadorac-/include/Cola.hpp
  /home/zentauro/Git/Calculadorac-/include/Elemento.hpp
+ /home/zentauro/Git/Calculadorac-/include/NodoArbol.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoCola.hpp
  /home/zentauro/Git/Calculadorac-/include/NodoPila.hpp
  /home/zentauro/Git/Calculadorac-/include/Pila.hpp
+ /home/zentauro/Git/Calculadorac-/include/Stoi.hpp
  /home/zentauro/Git/Calculadorac-/src/main.cpp
