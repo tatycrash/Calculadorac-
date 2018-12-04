@@ -7,7 +7,7 @@ using namespace std;
 
 Arbol::Arbol(){//constructor del arbol donde vemos que esta la raiz y el actual inicializado a null
     raiz = NULL;
-    actual = NULL;
+    /*actual = NULL;*/
 }
 
 void Arbol::insertar(nodoa ope, nodoa num1, nodoa num2_ope) {//insertamos los 3 nodos al arbol
@@ -20,7 +20,8 @@ nodoa Arbol::getRaiz(){//obtenemos la raiz con este metodo
 	return raiz;
 }
 
-void Arbol::pintar(nodoa p, int indent) {//pintamos el arbol
+void Arbol::pintar(nodoa p, int indent){//pintamos el arbol 
+    
     if (p != NULL) {
 		if (p->der) {
 			pintar(p->der, indent + 6);

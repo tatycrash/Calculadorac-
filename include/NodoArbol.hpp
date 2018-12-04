@@ -1,17 +1,18 @@
 #ifndef NODOARBOL_HPP
 #define NODOARBOL_HPP
-#include "Elemento.hpp"
 #include <iostream>
 #include <cstddef>
+
+#include "Elemento.hpp"
 
 using namespace std;
 
 class NodoArbol{
 
 public:
-  NodoArbol(string valor, NodoArbol *der = NULL, NodoArbol *izq = NULL);
-  ~NodoArbol();
-  string getValorArb();
+    NodoArbol(string valor, NodoArbol *der = NULL, NodoArbol *izq = NULL);
+    string getValorArb();
+    ~NodoArbol();
 
 private:
 	string valor;

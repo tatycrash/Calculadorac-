@@ -3,11 +3,11 @@
 #include <iostream>
 #include <cstddef>
 
-#include "NodoCola.hpp"
 #include "Elemento.hpp"
 #include "NodoCola.hpp"
 
 class Cola {
+
 public:
     Cola();
     void insertarCola(Elemento e);
@@ -15,7 +15,7 @@ public:
     bool colaVacia();
     void mostrar();
     ~Cola();
-    
+
 private:
     pnodo primero, ultimo;
 };

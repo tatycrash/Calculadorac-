@@ -2,16 +2,17 @@
 #define NODOPILA_HPP
 #include <cstddef>
 
-class NodoPila
-{
-    
+#include "NodoArbol.hpp"
+
+class NodoPila{
+
 public:
-    NodoPila(int valor,NodoPila* siguiente = NULL);
+    NodoPila(NodoArbol *valor = NULL,NodoPila* siguiente = NULL);
     ~NodoPila();
-    
+
 private:
     NodoPila *siguiente;
-    int valor;
+    NodoArbol *valor;
     friend class Pila;
 };
 

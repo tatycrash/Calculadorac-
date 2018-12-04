@@ -4,18 +4,22 @@
 
 #include "NodoPila.hpp"
 #include "Cola.hpp"
+#include "NodoArbol.hpp"
 
-class Pila {
+class Pila{
+    
 public:
     Pila();
-    void apilar(int);
-    int desapilar();
+    void apilar(nodoa);
+    nodoa desapilar();
     bool pilavacia();
     void mostrarPila(ppnodo);
+    bool esUltimo();
     ~Pila();
+    ppnodo cima;
 
 private:
-    ppnodo cima;
+    //ppnodo cima;
 };
 
 #endif // PILA_HPP
