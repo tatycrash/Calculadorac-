@@ -7,13 +7,13 @@
 class NodoPila{
 
 public:
-    NodoPila(NodoArbol *valor = NULL,NodoPila* siguiente = NULL);
-    ~NodoPila();
+  NodoPila(NodoArbol *valor = NULL,NodoPila* siguiente = NULL);
+  ~NodoPila();
 
 private:
-    NodoPila *siguiente;
-    NodoArbol *valor;
-    friend class Pila;
+  NodoPila *siguiente;
+  NodoArbol *valor;
+  friend class Pila;
 };
 
 typedef NodoPila* ppnodo;

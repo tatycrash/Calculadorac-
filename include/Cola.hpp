@@ -10,11 +10,12 @@ class Cola {
 
 public:
   Cola();
-  void     insertarCola(Elemento e);
-  Elemento eliminarCola();
+  void     insertarElem(Elemento e);
+  Elemento eliminarElem();
   bool     colaVacia();
   void     mostrar();
   int      getLength();
+  bool     esNumero();
   ~Cola();
 private:
   pnodo primero, ultimo;

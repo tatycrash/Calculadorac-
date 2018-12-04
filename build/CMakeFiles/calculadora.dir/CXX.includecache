@@ -84,12 +84,6 @@ stdlib.h
 string.h
 -
 
-/home/zentauro/Git/Calculadorac-/src/Cola.cpp
-iostream
--
-../include/Cola.hpp
-/home/zentauro/Git/Calculadorac-/include/Cola.hpp
-
 /home/zentauro/Git/Calculadorac-/src/main.cpp
 stdio.h
 -

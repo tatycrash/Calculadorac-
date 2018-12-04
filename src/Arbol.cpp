@@ -5,24 +5,28 @@
 
 using namespace std;
 
-Arbol::Arbol(){//constructor del arbol donde vemos que esta la raiz y el actual inicializado a null
-    raiz = NULL;
-    /*actual = NULL;*/
+/**
+ * constructor del arbol donde vemos que esta la raiz y el actual inicializado a null
+ *
+ **/
+Arbol::Arbol(){
+  raiz = NULL;
+  /*actual = NULL;*/
 }
 
-void Arbol::insertar(nodoa ope, nodoa num1, nodoa num2_ope) {//insertamos los 3 nodos al arbol
-    raiz = ope;
-    raiz->izq = num1;
-    raiz->der = num2_ope;
+void Arbol::insertar(nodoa ope, nodoa num1, nodoa num2_ope) {
+  //insertamos los 3 nodos al arbol
+  raiz = ope;
+  raiz->izq = num1;
+  raiz->der = num2_ope;
 }
 
 nodoa Arbol::getRaiz(){//obtenemos la raiz con este metodo
 	return raiz;
 }
 
-void Arbol::pintar(nodoa p, int indent){//pintamos el arbol 
-    
-    if (p != NULL) {
+void Arbol::pintar(nodoa p, int indent){//pintamos el arbol
+  if (p != NULL) {
 		if (p->der) {
 			pintar(p->der, indent + 6);
 		}
@@ -30,7 +34,7 @@ void Arbol::pintar(nodoa p, int indent){//pintamos el arbol
 			cout << setw(indent) << ' ';
 		}
 		if (p->der) cout << " /\n" << setw(indent) << ' ';
-		cout << "/" << p->getValorArb() << "\n ";
+		cout << p->getValorArb() << "\n ";
 		if (p->izq) {
 			cout << setw(indent) << ' ' << " \\\n";
 			pintar(p->izq, indent + 6);
@@ -49,8 +53,7 @@ void Arbol::borrar(nodoa){//borramos el arbol
 
 void Arbol::preOrden(nodoa b){
 	if (b != NULL) {
-		cout << b->getValorArb() << "\n";
-        cout << endl;
+		cout << b->getValorArb() << " ";
 		preOrden(b->izq);
 		preOrden(b->der);
 	}
@@ -60,16 +63,14 @@ void Arbol::postOrden(nodoa b){
 	if (b != NULL) {
 		postOrden(b->izq);
 		postOrden(b->der);
-		cout << b->getValorArb() << "\n";
-        cout << endl;
+		cout << b->getValorArb() << " ";
 	}
 }
 
 void Arbol::inOrden(nodoa b){
 	if (b != NULL) {
 		inOrden(b->izq);
-		cout << b->getValorArb() << "\n";
-        cout << endl;
+		cout << b->getValorArb() << " ";
 		inOrden(b->der);
 	}
 }

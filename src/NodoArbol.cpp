@@ -1,13 +1,18 @@
 #include "../include/NodoArbol.hpp"
 
-NodoArbol::NodoArbol(string val,NodoArbol* der,NodoArbol* izq){//Nodo arbol va a tener 3 parametros que son el string que le meteremos, izq y der
+/**
+ * Nodo arbol va a tener 3 parametros que son el string que le meteremos, izq y der
+ **/
+NodoArbol::NodoArbol(string val, NodoArbol* dere,NodoArbol* izqu){
   valor = val;
-	der = der;
-	izq = izq;
+	der = dere;
+	izq = izqu;
 }
 
-
-string NodoArbol::getValorArb(){//obtenemos el valor del nodoarbol
+/**
+ * Obtenemos el valor del nodoarbol
+ **/
+string NodoArbol::getValorArb() {
     return valor;
 }
 

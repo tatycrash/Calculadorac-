@@ -53,7 +53,7 @@ int main(int argc, char **argv){
         cout << e.getValor();
         if (e.EsNumero() || e.EsOperador() || e.EsParentesis()){
           cout<< "\nEs un numero, operador o parentesis " ;
-          c.insertarCola(e);
+          c.insertarElem(e);
         }
         // Si no, escribimos error en pantalla
         else {
@@ -73,40 +73,33 @@ int main(int argc, char **argv){
       break;
 
     case 3:
-      try {
-        e = c.eliminarCola();
-      } catch(out_of_range e) {
-        cout<< "VAYA POR DIOS, NO HAY ELEMENTOS EN LA COLA";
-        pause();
-        break;
-      }
-
-      while (e.EsNumero()){
-        nodoAr = new NodoArbol(e.getValor(), NULL, NULL);
-        p.apilar(nodoAr);
-        //cout<<p.cima->valor<<"\n";
-        try{
-          e = c.eliminarCola();
+      do {
+        cout << "[entrada] La cola tiene " + to_string(c.getLength()) + " items\n";
+        try {
+          e = c.eliminarElem();
         }catch(out_of_range e){
           cout<< "VAYA POR DIOS, ERROR OPERACION, VUELVA A INTRODUCIR\n";
           p.~Pila();
-          pause();
           break;
         }
-      }
-      nodoAr = p.desapilar();                                          //Desapilamos el primer nodoarbol de la pila
+        nodoAr = new NodoArbol(e.getValor(), NULL, NULL);
+        p.apilar(nodoAr);
+        //cout<<p.cima->valor<<"\n";
+        cout << "[salida ] La cola tiene " + to_string(c.getLength()) + " items\n";
+      } while (c.esNumero());
+
+      nodoAr = p.desapilar();                                            //Desapilamos el primer nodoarbol de la pila
       try {
-        nodoRaiz = new NodoArbol(c.eliminarCola().getValor(),NULL,NULL); //creamos un nodoarbol que tendra el signo de la cola
+        nodoRaiz = new NodoArbol(c.eliminarElem().getValor(),NULL,NULL); //creamos un nodoarbol que tendra el signo de la cola
       }
       catch (out_of_range e) {
         cout << e.what();
       }
       arbol.insertar(nodoRaiz, p.desapilar(), nodoAr);                 //insertamos en el arbol el signo y los dos numeros
       while (!p.pilavacia()){                                          //mientras la pila no este vacia
-        nodoRaiz = new NodoArbol(c.eliminarCola().getValor(), NULL, NULL);//creamos el nodoarbol vacio con el nuevo signo que sale de la cola
+        nodoRaiz = new NodoArbol(c.eliminarElem().getValor(), NULL, NULL);//creamos el nodoarbol vacio con el nuevo signo que sale de la cola
         arbol.insertar(nodoRaiz, p.desapilar(), arbol.getRaiz());
         arbol.pintar(arbol.getRaiz(),0);
-        pause();
       }
       //arbol.pintar(arbol.getRaiz(),0);//pinta el arbol como esta construido
       pause();
@@ -115,7 +108,7 @@ int main(int argc, char **argv){
     case 4:
       cout <<"\nPrimer elemento eliminado";
       try {
-        c.eliminarCola();
+        c.eliminarElem();
       } catch (const out_of_range e) {
         cout << "No hay nodos en la cola\n";
         break;
@@ -123,14 +116,26 @@ int main(int argc, char **argv){
       pause();
       break;
     case 5:
+      arbol.pintar(arbol.getRaiz(),0);
+      cout << "\n";
+      pause();
       break;
     case 6:
       break;
     case 7:
+      arbol.postOrden(arbol.getRaiz());
+      cout << "\n";
+      pause();
       break;
     case 8:
+      arbol.inOrden(arbol.getRaiz());
+      cout << "\n";
+      pause();
       break;
     case 9:
+      arbol.preOrden(arbol.getRaiz());
+      cout << "\n";
+      pause();
       break;
     case 10:
       break;

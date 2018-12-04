@@ -7,8 +7,8 @@
 
 class NodoCola{
 public:
-    NodoCola(Elemento elemento, NodoCola* sig =NULL);
-    ~NodoCola();
+  NodoCola(Elemento elemento, NodoCola* sig =NULL);
+  ~NodoCola();
 private:
     Elemento elemento;
     NodoCola* sig;

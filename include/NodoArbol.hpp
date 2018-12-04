@@ -7,12 +7,12 @@
 
 using namespace std;
 
-class NodoArbol{
+class NodoArbol {
 
 public:
-    NodoArbol(string valor, NodoArbol *der = NULL, NodoArbol *izq = NULL);
-    string getValorArb();
-    ~NodoArbol();
+  NodoArbol(string valor, NodoArbol *der = NULL, NodoArbol *izq = NULL);
+  string getValorArb();
+  ~NodoArbol();
 
 private:
 	string valor;

@@ -10,7 +10,7 @@ Cola::Cola(){
   length = 0;
 }
 
-void Cola::insertarCola(Elemento e) {
+void Cola::insertarElem(Elemento e) {
   pnodo nuevo;             //creas un puntero tipo cola llamado "nuevo".
   nuevo = new NodoCola(e); //este apunta al nuevo nodo en el que se aloja el cliente a insertar.
 	if(ultimo) {             //si ultimo es NULL(como henmos dicho arriba en el contructor) significa que la cola esta vacia.
@@ -30,7 +30,7 @@ bool colaVacia(NodoCola* primero){
   return (primero==NULL)? true : false;
 }
 
-Elemento Cola::eliminarCola(){
+Elemento Cola::eliminarElem(){
   if (!primero) {
     out_of_range ex = out_of_range("VAYA POR DIOS");
     throw ex;
@@ -39,6 +39,7 @@ Elemento Cola::eliminarCola(){
   pnodo aux;
   aux     = primero;
   primero = aux->sig;
+  length--;
   return aux->elemento;
   delete aux;
 }
@@ -49,6 +50,14 @@ void Cola::mostrar(){
     aux->elemento.mostrarElem();
     aux = aux->sig;
   }
+}
+
+int Cola::getLength() {
+  return length;
+}
+
+bool Cola::esNumero() {
+  return primero->elemento.EsNumero();
 }
 
 Cola::~Cola(){}
