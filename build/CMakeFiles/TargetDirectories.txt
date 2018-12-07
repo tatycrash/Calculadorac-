@@ -1,0 +1,3 @@
+/home/zentauro/Git/Calculadorac-/build/CMakeFiles/rebuild_cache.dir
+/home/zentauro/Git/Calculadorac-/build/CMakeFiles/calculadora.dir
+/home/zentauro/Git/Calculadorac-/build/CMakeFiles/edit_cache.dir

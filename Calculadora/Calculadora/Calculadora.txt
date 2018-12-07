@@ -1,1 +1,0 @@
-./Debug/NodoArbol.cpp.o ./Debug/Elemento.cpp.o ./Debug/Arbol.cpp.o ./Debug/Stoi.cpp.o ./Debug/NodoPila.cpp.o ./Debug/NodoCola.cpp.o ./Debug/Pila.cpp.o ./Debug/main.cpp.o ./Debug/Cola.cpp.o   
