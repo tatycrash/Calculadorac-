@@ -76,33 +76,11 @@ string
 stdexcept
 -
 
-/home/zentauro/Git/Calculadorac-/include/funcs.hpp
-stdio.h
--
-stdlib.h
--
+/home/zentauro/Git/Calculadorac-/src/Arbol.cpp
 string.h
 -
-
-/home/zentauro/Git/Calculadorac-/src/main.cpp
-stdio.h
+iomanip
 -
-iostream
--
-math.h
--
-string
--
-../include/Cola.hpp
-/home/zentauro/Git/Calculadorac-/include/Cola.hpp
-../include/Pila.hpp
-/home/zentauro/Git/Calculadorac-/include/Pila.hpp
-../include/Elemento.hpp
-/home/zentauro/Git/Calculadorac-/include/Elemento.hpp
-../include/NodoArbol.hpp
-/home/zentauro/Git/Calculadorac-/include/NodoArbol.hpp
 ../include/Arbol.hpp
 /home/zentauro/Git/Calculadorac-/include/Arbol.hpp
-../include/funcs.hpp
-/home/zentauro/Git/Calculadorac-/include/funcs.hpp
 

@@ -15,6 +15,7 @@ public:
   ~Arbol();
   void insertar(nodoa,nodoa,nodoa);
 	nodoa getRaiz();
+  int  eval(nodoa, int);
 	void pintar(nodoa, int);
 	bool Vacio(nodoa *r) { return r == NULL; }
   void borrar(nodoa);

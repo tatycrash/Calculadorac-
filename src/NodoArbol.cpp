@@ -10,6 +10,14 @@ NodoArbol::NodoArbol(string val, NodoArbol* dere,NodoArbol* izqu){
 }
 
 /**
+ * Devuelve true si el nodo no tiene hijos
+ **/
+bool NodoArbol::isExternal() {
+  return (!izq && !der)?
+    true : false;
+}
+
+/**
  * Obtenemos el valor del nodoarbol
  **/
 string NodoArbol::getValorArb() {

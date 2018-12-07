@@ -75,4 +75,14 @@ void Arbol::inOrden(nodoa b){
 	}
 }
 
+int Arbol::eval(nodoa A, int V) {
+  if (A->isExternal())
+    return stoi(A->getValorArb());
+  else {
+    int r1 = eval(A->izq, V);
+    int r2 = eval(A->der, V);
+    return solve(r1, r2, V);
+  }
+}
+
 Arbol::~Arbol(){}

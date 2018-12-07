@@ -13,6 +13,7 @@ public:
   NodoArbol(string valor, NodoArbol *der = NULL, NodoArbol *izq = NULL);
   string getValorArb();
   ~NodoArbol();
+  bool isExternal();
 
 private:
 	string valor;
