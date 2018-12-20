@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int main(int argc, char **argv){
+int  main(int argc, char **argv){
   int opc;
   Elemento e;
   Cola c;
@@ -38,6 +38,7 @@ int main(int argc, char **argv){
     cout << "\t8. Recorrido infijo.\n";
     cout << "\t9. Recorrido prefijo.\n";
     cout << "\t10. Salir.\n";
+    cout << "\t11. eval.\n";
     cout << "Opcion: ";
     cin >> opc;
 
@@ -80,7 +81,7 @@ int main(int argc, char **argv){
         }catch(out_of_range e){
           cout<< "VAYA POR DIOS, ERROR OPERACION, VUELVA A INTRODUCIR\n";
           p.~Pila();
-          break;
+          goto salir;
         }
         nodoAr = new NodoArbol(e.getValor(), NULL, NULL);
         p.apilar(nodoAr);
@@ -102,7 +103,7 @@ int main(int argc, char **argv){
         arbol.pintar(arbol.getRaiz(),0);
       }
       //arbol.pintar(arbol.getRaiz(),0);//pinta el arbol como esta construido
-      pause();
+    salir: pause();
       break;
 
     case 4:
@@ -139,8 +140,20 @@ int main(int argc, char **argv){
       break;
     case 10:
       break;
+    case 11: {
+      arbol.pintar(arbol.getRaiz(), 0);
+      cout << "------------------\n";
+      try {
+        arbol.eval(arbol.getRaiz());
+      } catch(invalid_argument e) {
+        cout << e.what();
+      } catch(out_of_range e) {
+        cout << e.what();
+      }
+      cout << "\n";
+      pause();
+    }
     }
     clear();
   } while(opc!=10);
 }
-

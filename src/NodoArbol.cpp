@@ -25,4 +25,3 @@ string NodoArbol::getValorArb() {
 }
 
 NodoArbol::~NodoArbol(){}//destructor
-
