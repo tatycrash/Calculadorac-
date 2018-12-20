@@ -15,7 +15,7 @@ public:
   ~Arbol();
   void insertar(nodoa,nodoa,nodoa);
 	nodoa getRaiz();
-  int  eval(nodoa, int);
+  int  eval(nodoa);
 	void pintar(nodoa, int);
 	bool Vacio(nodoa *r) { return r == NULL; }
   void borrar(nodoa);
@@ -27,5 +27,7 @@ public:
 private:
 	nodoa raiz;
 };
+
+int solve(int, int, char);
 
 #endif // ARBOL_HPP

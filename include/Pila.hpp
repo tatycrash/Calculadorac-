@@ -7,19 +7,17 @@
 #include "NodoArbol.hpp"
 
 class Pila{
-    
 public:
-    Pila();
-    void apilar(nodoa);
-    nodoa desapilar();
-    bool pilavacia();
-    void mostrarPila(ppnodo);
-    bool esUltimo();
-    ~Pila();
-    ppnodo cima;
+  Pila();
+  void apilar(nodoa);
+  nodoa desapilar();
+  bool pilavacia();
+  void mostrarPila(ppnodo);
+  bool esUltimo();
+  ~Pila();
 
 private:
-    //ppnodo cima;
+  NodoPila* cima;
 };
 
 #endif // PILA_HPP

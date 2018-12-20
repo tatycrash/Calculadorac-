@@ -1,5 +1,7 @@
 #include <string.h>
 #include <iomanip>
+#include <exception>
+#include <math.h>
 
 #include "../include/Arbol.hpp"
 
@@ -75,14 +77,48 @@ void Arbol::inOrden(nodoa b){
 	}
 }
 
-int Arbol::eval(nodoa A, int V) {
+/**
+ * Consume el arbol producir el resultado
+ **/
+int Arbol::eval(nodoa A) {
+  if (A == NULL) {
+    throw out_of_range("El arbol esta vacio");
+  }
   if (A->isExternal())
     return stoi(A->getValorArb());
   else {
-    int r1 = eval(A->izq, V);
-    int r2 = eval(A->der, V);
-    return solve(r1, r2, V);
+    char V = A->valor[0];
+    int r1 = eval(A->izq);
+    int r2 = eval(A->der);
+    int sol = 0;
+    A->izq = NULL;
+    A->der = NULL;
+    sol = solve(r1, r2, V);
+    A->valor = to_string(sol);
+
+    pintar(getRaiz(), 0);
+    cout << "------------------\n";
+
+    return sol;
   }
 }
 
 Arbol::~Arbol(){}
+
+int solve(int x, int y, char op) {
+  switch(op) {
+  case '+': return x + y;
+  case '-': return x - y;
+  case '/':
+    if (y == 0) {
+      throw invalid_argument("Division entre 0");
+    }
+    return x / y;
+  case '*': return x * y;
+  case '^': return pow(x, y);
+  default:
+    string msg = string("Operacion no permitida: ");
+    msg += op;
+    throw invalid_argument(msg);
+  }
+}
